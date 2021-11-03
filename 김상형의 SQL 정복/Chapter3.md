@@ -27,7 +27,7 @@ GO
 ```
 ### * DB 비활성화
 ```
-USE 임의의 다른 DB
+USE master;
 ```
 ### * DB, table 삭제
 ```
