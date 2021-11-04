@@ -140,6 +140,11 @@ SELECT * FROM tStaff WHERE depart IN ('인사과','영업부') and grade = '대�
 ```
 SELECT * FROM tStaff WHERE grade IN ('차장','부장','이사') and gender = '여';
 ```
+### * 정렬
+```
+ORDER BY 필드 [ASC | DESC]
+```
+#### - ORDER BY의 기준은 보통 필드명으로 하지만 순서값으로 지정할 수 있다. 필드 순서값은 테이블 생성시에 등록한 순서대로이다.
 
 
 
